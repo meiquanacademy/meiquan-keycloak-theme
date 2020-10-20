@@ -1,0 +1,30 @@
+{
+  "name": "mei-quan-keycloak-theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf build",
+    "clean:all": "rm -rf build keycloak/themes",
+    "start": "npm run docker:setup && npm run build && npm run watch",
+    "build": "npm run clean && npm run build:copy-base && npm run build:copy-src",
+    "build:copy-base": "mkdir -p build/themes && cp -R keycloak/themes/* build/themes",
+    "build:copy-src": "copyfiles -V -u 2 \"./src/themes/**/*\" build/themes",
+    "watch": "run-p watch:*",
+    "watch:docker-run": "./scripts/run.sh",
+    "watch:copy": "chokidar \"./src/**/*\" -c \"npm run build:copy-src\"",
+    "docker:setup": "./scripts/setup.sh",
+    "docker:build": "npm run build && docker build -t keycloak-mq .",
+    "docker:run": "npm run docker:build && docker run -p 8080:8080 -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin keycloak-mq"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bulma": "^0.9.1"
+  },
+  "devDependencies": {
+    "chokidar-cli": "^2.1.0",
+    "copyfiles": "^2.4.0",
+    "npm-run-all": "^4.1.5"
+  }
+}
