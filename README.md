@@ -11,6 +11,8 @@ Highlights:
   - minimal overrides to remain compatible with PatternFly
 - Shows a random background to the user from directory of JPEG images
 
+![Screenshot - login](screenshots/screenshot-login.png)
+
 ## Todo and known issues
 
 - Overrides the `keycloak` theme
