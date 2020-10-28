@@ -1,65 +1,53 @@
-.login-pf body {
+.login-pf html {
     background: #363636;
 }
 
-.login-background-001 body {
+.login-pf body {
+    background: none;
+}
+
+.login-background {
+    background-size: cover !important;
+}
+
+.login-background-001 {
     background: url("../img/bg/001.jpg")  no-repeat center center fixed;
-    background-size: cover;
-    height: 100%;
 }
 
-.login-background-002 body {
+.login-background-002 {
     background: url("../img/bg/002.jpg")  no-repeat center center fixed;
-    background-size: cover;
-    height: 100%;
 }
 
-.login-background-003 body {
+.login-background-003 {
     background: url("../img/bg/003.jpg")  no-repeat center center fixed;
-    background-size: cover;
-    height: 100%;
 }
 
-.login-background-004 body {
+.login-background-004 {
     background: url("../img/bg/004.jpg")  no-repeat center center fixed;
-    background-size: cover;
-    height: 100%;
 }
 
-.login-background-005 body {
+.login-background-005 {
     background: url("../img/bg/005.jpg")  no-repeat center center fixed;
-    background-size: cover;
-    height: 100%;
 }
 
-.login-background-006 body {
+.login-background-006 {
     background: url("../img/bg/006.jpg")  no-repeat center center fixed;
-    background-size: cover;
-    height: 100%;
 }
 
-.login-background-007 body {
+.login-background-007 {
     background: url("../img/bg/007.jpg")  no-repeat center center fixed;
-    background-size: cover;
-    height: 100%;
 }
 
-.login-background-008 body {
+.login-background-008 {
     background: url("../img/bg/008.jpg")  no-repeat center center fixed;
-    background-size: cover;
-    height: 100%;
 }
 
-.login-background-009 body {
+.login-background-009 {
     background: url("../img/bg/009.jpg")  no-repeat center center fixed;
-    background-size: cover;
-    height: 100%;
 }
 
-.login-background-010 body {
+.login-background-010 {
     background: url("../img/bg/010.jpg")  no-repeat center center fixed;
-    background-size: cover;
-    height: 100%;
 }
 
 .alert-error {
@@ -406,6 +394,10 @@ a.zocial  {
 }
 
 @media (max-width: 767px) {
+
+    .login-pf.login-background-overrides {
+      background-image: none;
+    }
 
     .login-pf body {
       background: white;
