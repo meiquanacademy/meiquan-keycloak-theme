@@ -10,45 +10,13 @@
     background-size: cover !important;
 }
 
-.login-background-001 {
-    background: url("../img/bg/001.jpg")  no-repeat center center fixed;
-}
+/*
+    -- Generated in background.css --
 
-.login-background-002 {
-    background: url("../img/bg/002.jpg")  no-repeat center center fixed;
-}
-
-.login-background-003 {
-    background: url("../img/bg/003.jpg")  no-repeat center center fixed;
-}
-
-.login-background-004 {
-    background: url("../img/bg/004.jpg")  no-repeat center center fixed;
-}
-
-.login-background-005 {
-    background: url("../img/bg/005.jpg")  no-repeat center center fixed;
-}
-
-.login-background-006 {
-    background: url("../img/bg/006.jpg")  no-repeat center center fixed;
-}
-
-.login-background-007 {
-    background: url("../img/bg/007.jpg")  no-repeat center center fixed;
-}
-
-.login-background-008 {
-    background: url("../img/bg/008.jpg")  no-repeat center center fixed;
-}
-
-.login-background-009 {
-    background: url("../img/bg/009.jpg")  no-repeat center center fixed;
-}
-
-.login-background-010 {
-    background: url("../img/bg/010.jpg")  no-repeat center center fixed;
-}
+    .login-background-XXX {
+        background: url("../img/bg/XXX.jpg")  no-repeat center center fixed;
+    }
+ */
 
 .alert-error {
     background-color: #ffffff;
