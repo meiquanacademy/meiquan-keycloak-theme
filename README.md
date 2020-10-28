@@ -6,7 +6,7 @@ Highlights:
 
 - Provides a custom theme for:
   - login
-  - ~~account screen~~
+  - account screen
 - Uses `bulma` CSS styles (https://bulma.io/)
   - minimal overrides to remain compatible with PatternFly
 - Shows a random background to the user from directory of JPEG images
@@ -14,12 +14,6 @@ Highlights:
 ![Screenshot - login](screenshots/screenshot-login.png)
 
 ## Todo and known issues
-
-Todo:
-
-- [ ] favicon
-- [ ] check `**/*.messages` files replacing "Keycloak" with "Mei Quan Academy" where appropriate
-- [ ] quick style for account screen using logo and Bulma
 
 Quirks:
 
