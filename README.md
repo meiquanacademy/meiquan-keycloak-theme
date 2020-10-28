@@ -23,6 +23,14 @@ Quirks:
   - e.g. "incorrect password" uses PatternFly styling, colours and icons
 - Grid uses PatternFly / Bootstrap grid styles
 - Responsive classes use PatternFly breakpoints  
+
+## Changing the background images
+
+There is a directory called `backgrounds` that is the source for the background images.
+
+Add any files you want as backgrounds to this directory and they will be processed by the build scripts.
+
+The files will be renamed, but their extensions will be preserved. Files should be common web formats to work widely across browsers, as no processing is done on files.
   
 ## Development
 
